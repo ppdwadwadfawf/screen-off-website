@@ -1,0 +1,245 @@
+
+
+section.titulo-pagina,
+.titulo-pagina {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+section.secao-videos-guia,
+.secao-videos-guia {
+  background: #e8f4fd;
+  border: 3px solid #74b9ff;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+section.titulo-videos-guia,
+.titulo-videos-guia {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+section.secao-videos,
+.secao-videos {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+section.item-video,
+.item-video {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+section.placeholder-video,
+.placeholder-video {
+  width: 200px;
+  height: 120px;
+  background: #2d3436;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+section.miniatura-video,
+.miniatura-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.conteudo-video h3,
+.conteudo-video h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+section.conteudo-video p,
+.conteudo-video p {
+  color: #636e72;
+  line-height: 1.5;
+}
+
+section.divisor-vermelho-horizontal,
+.divisor-vermelho-horizontal {
+  height: 4px;
+  background: #e17055;
+  border-radius: 2px;
+  width: 100%;
+}
+
+section.divisor-vermelho-vertical,
+.divisor-vermelho-vertical {
+  width: 4px;
+  background: #e17055;
+  border-radius: 2px;
+  height: 100%;
+}
+
+/* Seção de aplicativos seguindo padrão de quadrantes de malefícios */
+section.secao-principal-aplicativos,
+.secao-principal-aplicativos {
+  background: #f1f2f6;
+  border: 3px solid #74b9ff;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 40px 0;
+}
+
+section.titulo-aplicativos,
+.titulo-aplicativos {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+section.grade-aplicativos,
+.grade-aplicativos {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0;
+  position: relative;
+  margin-bottom: 20px;
+  align-items: stretch;
+}
+
+section.item-aplicativo,
+.item-aplicativo {
+  padding: 30px;
+  background: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+section.item-aplicativo:first-child,
+.item-aplicativo:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+section.item-aplicativo:last-child,
+.item-aplicativo:last-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+section.icone-aplicativo,
+.icone-aplicativo {
+  width: 60px;
+  height: 60px;
+  background: #2d3436;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+section.logo-app,
+.logo-app {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+section.item-aplicativo h3,
+.item-aplicativo h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section.item-aplicativo p,
+.item-aplicativo p {
+  color: #636e72;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  section.secao-videos-guia,
+  .secao-videos-guia,
+  section.secao-principal-aplicativos,
+  .secao-principal-aplicativos {
+    padding: 25px 20px;
+  }
+
+  section.secao-videos,
+  .secao-videos {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  section.item-video,
+  .item-video {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section.placeholder-video,
+  .placeholder-video {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  section.grade-aplicativos,
+  .grade-aplicativos {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  section.divisor-vermelho-vertical,
+  .divisor-vermelho-vertical {
+    display: none;
+  }
+
+  section.item-aplicativo,
+  .item-aplicativo {
+    border-radius: 15px !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  section.titulo-pagina,
+  .titulo-pagina {
+    font-size: 28px;
+  }
+}

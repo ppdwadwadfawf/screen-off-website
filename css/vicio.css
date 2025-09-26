@@ -1,0 +1,386 @@
+/* Estilos específicos para a página de vício */
+/* Seguindo o padrão de malefícios com classes em português-BR e prefixos section. */
+
+section.titulo-pagina,
+.titulo-pagina {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+;
+}
+
+/* Adicionando seção de vídeos educativos seguindo padrão de malefícios */
+section.secao-videos-educativos,
+.secao-videos-educativos {
+  background: #e8f4fd;
+  border: 3px solid #74b9ff;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+section.titulo-videos-educativos,
+.titulo-videos-educativos {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+section.secao-videos,
+.secao-videos {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+section.item-video,
+.item-video {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+section.placeholder-video,
+.placeholder-video {
+  width: 200px;
+  height: 120px;
+  background: #2d3436;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+section.miniatura-video,
+.miniatura-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.conteudo-video h3,
+.conteudo-video h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+section.conteudo-video p,
+.conteudo-video p {
+  color: #636e72;
+  line-height: 1.5;
+}
+
+section.divisor-vermelho-horizontal,
+.divisor-vermelho-horizontal {
+  height: 4px;
+  background: #e17055;
+  border-radius: 2px;
+  width: 100%;
+}
+
+section.imagem-ciencia,
+.imagem-ciencia,
+section.imagem-estatisticas,
+.imagem-estatisticas,
+section.imagens-dicas,
+.imagens-dicas {
+  text-align: center;
+  margin: 20px 0;
+}
+
+section.imagem-pesquisa,
+.imagem-pesquisa,
+section.grafico-estatisticas,
+.grafico-estatisticas,
+section.ilustracao-dica,
+.ilustracao-dica {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+section.secao-conteudo,
+.secao-conteudo {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+section.titulo-secao,
+.titulo-secao {
+  font-size: 24px;
+  color: #74b9ff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section.secao-ciencia,
+.secao-ciencia {
+  border-left: 4px solid #e17055;
+  padding-left: 20px;
+}
+
+section.conteudo-ciencia,
+.conteudo-ciencia {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section.autoavaliacao,
+.autoavaliacao {
+  border: 2px solid #74b9ff;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+section.titulo-avaliacao,
+.titulo-avaliacao {
+  font-size: 20px;
+  color: #74b9ff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section.grade-avaliacao,
+.grade-avaliacao {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+section.item-avaliacao,
+.item-avaliacao {
+  border-left: 3px solid #e17055;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+section.item-avaliacao h4,
+.item-avaliacao h4 {
+  color: #74b9ff;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+section.secao-estatisticas,
+.secao-estatisticas {
+  background: #74b9ff;
+  color: white;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 30px 0;
+}
+
+section.titulo-estatisticas,
+.titulo-estatisticas {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+section.grade-estatisticas,
+.grade-estatisticas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+section.cartao-estatistica,
+.cartao-estatistica {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 30px 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+section.numero-estatistica,
+.numero-estatistica {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+section.descricao-estatistica,
+.descricao-estatistica {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+section.secao-beneficios,
+.secao-beneficios {
+  background: #f8f9fa;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 30px 0;
+}
+
+section.titulo-beneficios,
+.titulo-beneficios {
+  text-align: center;
+  font-size: 24px;
+  color: #74b9ff;
+  margin-bottom: 30px;
+}
+
+section.grade-beneficios,
+.grade-beneficios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+section.cartao-beneficio,
+.cartao-beneficio {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border-top: 3px solid #e17055;
+}
+
+section.cartao-beneficio h4,
+.cartao-beneficio h4 {
+  color: #74b9ff;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+section.secao-dicas,
+.secao-dicas {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 30px 0;
+}
+
+section.titulo-dicas,
+.titulo-dicas {
+  text-align: center;
+  font-size: 24px;
+  color: #74b9ff;
+  margin-bottom: 30px;
+}
+
+section.grade-dicas,
+.grade-dicas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+section.cartao-dica,
+.cartao-dica {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 25px;
+  border-left: 4px solid #e17055;
+}
+
+section.cartao-dica h4,
+.cartao-dica h4 {
+  color: #74b9ff;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+section.secao-ajuda,
+.secao-ajuda {
+  background: #ffe8e6;
+  border: 2px solid #e17055;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+section.titulo-ajuda,
+.titulo-ajuda {
+  color: #e17055;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+section.texto-ajuda,
+.texto-ajuda {
+  color: #2d3436;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  section.secao-videos-educativos,
+  .secao-videos-educativos,
+  section.secao-conteudo,
+  .secao-conteudo {
+    padding: 25px 20px;
+  }
+
+  section.secao-videos,
+  .secao-videos {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  section.item-video,
+  .item-video {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section.placeholder-video,
+  .placeholder-video {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  section.conteudo-ciencia,
+  .conteudo-ciencia {
+    flex-direction: column;
+  }
+
+  section.grade-avaliacao,
+  .grade-avaliacao,
+  section.grade-estatisticas,
+  .grade-estatisticas,
+  section.grade-beneficios,
+  .grade-beneficios,
+  section.grade-dicas,
+  .grade-dicas {
+    grid-template-columns: 1fr;
+  }
+
+  section.titulo-pagina,
+  .titulo-pagina {
+    font-size: 28px;
+  }
+
+  section.numero-estatistica,
+  .numero-estatistica {
+    font-size: 36px;
+  }
+}

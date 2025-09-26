@@ -1,0 +1,381 @@
+
+
+section.titulo-pagina {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.titulo-pagina {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+section.secao-redes-sociais {
+  background: #e8f4fd;
+  border: 3px solid #74b9ff;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.secao-redes-sociais {
+  background: #e8f4fd;
+  border: 3px solid #74b9ff;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+section.titulo-redes-sociais {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.titulo-redes-sociais {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+section.secao-videos {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.secao-videos {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+section.item-video {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.item-video {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+section.placeholder-video {
+  width: 200px;
+  height: 120px;
+  background: #2d3436;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.placeholder-video {
+  width: 200px;
+  height: 120px;
+  background: #2d3436;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+section.miniatura-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.miniatura-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.conteudo-video h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.conteudo-video h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+section.conteudo-video p {
+  color: #636e72;
+  line-height: 1.5;
+}
+
+.conteudo-video p {
+  color: #636e72;
+  line-height: 1.5;
+}
+
+section.divisor-vermelho-horizontal {
+  height: 4px;
+  background: #e17055;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.divisor-vermelho-horizontal {
+  height: 4px;
+  background: #e17055;
+  border-radius: 2px;
+  width: 100%;
+}
+
+section.secao-principal-maleficios {
+  background: #f1f2f6;
+  border: 3px solid #74b9ff;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 40px 0;
+}
+
+.secao-principal-maleficios {
+  background: #f1f2f6;
+  border: 3px solid #74b9ff;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 40px 0;
+}
+
+section.titulo-maleficios {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.titulo-maleficios {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+section.grade-maleficios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.grade-maleficios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+section.grade-maleficios::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background: #e17055;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.grade-maleficios::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background: #e17055;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+section.item-maleficio {
+  padding: 30px;
+  background: white;
+  position: relative;
+}
+
+.item-maleficio {
+  padding: 30px;
+  background: white;
+  position: relative;
+}
+
+section.item-maleficio:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.item-maleficio:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+section.item-maleficio:last-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.item-maleficio:last-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+section.item-maleficio h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.item-maleficio h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section.item-maleficio p {
+  color: #636e72;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.item-maleficio p {
+  color: #636e72;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  section.secao-redes-sociais,
+  section.secao-principal-maleficios {
+    padding: 25px 20px;
+  }
+
+  .secao-redes-sociais,
+  .secao-principal-maleficios {
+    padding: 25px 20px;
+  }
+
+  section.secao-videos {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .secao-videos {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  section.item-video {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .item-video {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section.placeholder-video {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .placeholder-video {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  section.grade-maleficios {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .grade-maleficios {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  section.grade-maleficios::before {
+    display: none;
+  }
+
+  .grade-maleficios::before {
+    display: none;
+  }
+
+  section.item-maleficio {
+    border-radius: 15px !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .item-maleficio {
+    border-radius: 15px !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  section.titulo-pagina {
+    font-size: 28px;
+  }
+
+  .titulo-pagina {
+    font-size: 28px;
+  }
+}
